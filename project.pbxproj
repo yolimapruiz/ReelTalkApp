@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952E457A2BDD842400EA7485 /* Reel_TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45792BDD842400EA7485 /* Reel_TalkApp.swift */; };
+		952E457C2BDD842400EA7485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E457B2BDD842400EA7485 /* ContentView.swift */; };
+		952E457E2BDD842400EA7485 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E457D2BDD842400EA7485 /* Item.swift */; };
+		952E45802BDD842600EA7485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952E457F2BDD842600EA7485 /* Assets.xcassets */; };
+		952E45832BDD842600EA7485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952E45822BDD842600EA7485 /* Preview Assets.xcassets */; };
+		952E45952BDD84D700EA7485 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45942BDD84D700EA7485 /* ThemeFont.swift */; };
+		952E45972BDD84E000EA7485 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45962BDD84E000EA7485 /* ThemeColor.swift */; };
+		952E45992BDD877400EA7485 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45982BDD877300EA7485 /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952E45762BDD842400EA7485 /* Reel Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reel Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952E45792BDD842400EA7485 /* Reel_TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel_TalkApp.swift; sourceTree = "<group>"; };
+		952E457B2BDD842400EA7485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		952E457D2BDD842400EA7485 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		952E457F2BDD842600EA7485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952E45822BDD842600EA7485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		952E45942BDD84D700EA7485 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		952E45962BDD84E000EA7485 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		952E45982BDD877300EA7485 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952E45732BDD842400EA7485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952E456D2BDD842400EA7485 = {
+			isa = PBXGroup;
+			children = (
+				952E45782BDD842400EA7485 /* Reel Talk */,
+				952E45772BDD842400EA7485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952E45772BDD842400EA7485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952E45762BDD842400EA7485 /* Reel Talk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952E45782BDD842400EA7485 /* Reel Talk */ = {
+			isa = PBXGroup;
+			children = (
+				952E458C2BDD847300EA7485 /* Core */,
+				952E458B2BDD846D00EA7485 /* Config */,
+				952E458A2BDD846200EA7485 /* Extensions */,
+				952E45892BDD844A00EA7485 /* App */,
+				952E457B2BDD842400EA7485 /* ContentView.swift */,
+				952E457D2BDD842400EA7485 /* Item.swift */,
+				952E457F2BDD842600EA7485 /* Assets.xcassets */,
+				952E45812BDD842600EA7485 /* Preview Content */,
+			);
+			path = "Reel Talk";
+			sourceTree = "<group>";
+		};
+		952E45812BDD842600EA7485 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				952E45822BDD842600EA7485 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		952E45892BDD844A00EA7485 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				952E45792BDD842400EA7485 /* Reel_TalkApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		952E458A2BDD846200EA7485 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				952E45982BDD877300EA7485 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		952E458B2BDD846D00EA7485 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				952E45942BDD84D700EA7485 /* ThemeFont.swift */,
+				952E45962BDD84E000EA7485 /* ThemeColor.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		952E458C2BDD847300EA7485 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				952E458F2BDD848D00EA7485 /* Genre */,
+				952E458E2BDD848100EA7485 /* SingUp */,
+				952E458D2BDD847C00EA7485 /* Welcome */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		952E458D2BDD847C00EA7485 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				952E45902BDD849C00EA7485 /* Views */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		952E458E2BDD848100EA7485 /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		952E458F2BDD848D00EA7485 /* Genre */ = {
+			isa = PBXGroup;
+			children = (
+				952E45932BDD84BA00EA7485 /* ViewModel */,
+				952E45922BDD84B500EA7485 /* View */,
+				952E45912BDD84AF00EA7485 /* Model */,
+			);
+			path = Genre;
+			sourceTree = "<group>";
+		};
+		952E45902BDD849C00EA7485 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		952E45912BDD84AF00EA7485 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		952E45922BDD84B500EA7485 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		952E45932BDD84BA00EA7485 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952E45752BDD842400EA7485 /* Reel Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952E45862BDD842600EA7485 /* Build configuration list for PBXNativeTarget "Reel Talk" */;
+			buildPhases = (
+				952E45722BDD842400EA7485 /* Sources */,
+				952E45732BDD842400EA7485 /* Frameworks */,
+				952E45742BDD842400EA7485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reel Talk";
+			productName = "Reel Talk";
+			productReference = 952E45762BDD842400EA7485 /* Reel Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952E456E2BDD842400EA7485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					952E45752BDD842400EA7485 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 952E45712BDD842400EA7485 /* Build configuration list for PBXProject "Reel Talk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952E456D2BDD842400EA7485;
+			productRefGroup = 952E45772BDD842400EA7485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952E45752BDD842400EA7485 /* Reel Talk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952E45742BDD842400EA7485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952E45832BDD842600EA7485 /* Preview Assets.xcassets in Resources */,
+				952E45802BDD842600EA7485 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952E45722BDD842400EA7485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952E45952BDD84D700EA7485 /* ThemeFont.swift in Sources */,
+				952E45992BDD877400EA7485 /* Color+Extension.swift in Sources */,
+				952E457C2BDD842400EA7485 /* ContentView.swift in Sources */,
+				952E457E2BDD842400EA7485 /* Item.swift in Sources */,
+				952E457A2BDD842400EA7485 /* Reel_TalkApp.swift in Sources */,
+				952E45972BDD84E000EA7485 /* ThemeColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		952E45842BDD842600EA7485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952E45852BDD842600EA7485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952E45872BDD842600EA7485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reel Talk/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F93SMYAKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yolimaPereira.Reel-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952E45882BDD842600EA7485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reel Talk/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F93SMYAKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yolimaPereira.Reel-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952E45712BDD842400EA7485 /* Build configuration list for PBXProject "Reel Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952E45842BDD842600EA7485 /* Debug */,
+				952E45852BDD842600EA7485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952E45862BDD842600EA7485 /* Build configuration list for PBXNativeTarget "Reel Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952E45872BDD842600EA7485 /* Debug */,
+				952E45882BDD842600EA7485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952E456E2BDD842400EA7485 /* Project object */;
+}

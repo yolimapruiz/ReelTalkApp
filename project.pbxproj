@@ -15,6 +15,12 @@
 		952E45952BDD84D700EA7485 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45942BDD84D700EA7485 /* ThemeFont.swift */; };
 		952E45972BDD84E000EA7485 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45962BDD84E000EA7485 /* ThemeColor.swift */; };
 		952E45992BDD877400EA7485 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45982BDD877300EA7485 /* Color+Extension.swift */; };
+		952E459B2BDD8AAD00EA7485 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952E459A2BDD8AAD00EA7485 /* Launch Screen.storyboard */; };
+		952E459E2BDE7B6A00EA7485 /* MovieTvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E459D2BDE7B6A00EA7485 /* MovieTvCell.swift */; };
+		952E45A52BDE8F9200EA7485 /* MovieTVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45A42BDE8F9100EA7485 /* MovieTVShow.swift */; };
+		952E45A72BDE90CE00EA7485 /* MoviesTVShowGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45A62BDE90CE00EA7485 /* MoviesTVShowGridView.swift */; };
+		952E45AA2BDE93BE00EA7485 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */; };
+		952E45AC2BDE951000EA7485 /* TVShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		952E45942BDD84D700EA7485 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		952E45962BDD84E000EA7485 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		952E45982BDD877300EA7485 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		952E459A2BDD8AAD00EA7485 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		952E459D2BDE7B6A00EA7485 /* MovieTvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTvCell.swift; sourceTree = "<group>"; };
+		952E45A42BDE8F9100EA7485 /* MovieTVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTVShow.swift; sourceTree = "<group>"; };
+		952E45A62BDE90CE00EA7485 /* MoviesTVShowGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTVShowGridView.swift; sourceTree = "<group>"; };
+		952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,7 @@
 				952E457D2BDD842400EA7485 /* Item.swift */,
 				952E457F2BDD842600EA7485 /* Assets.xcassets */,
 				952E45812BDD842600EA7485 /* Preview Content */,
+				952E459A2BDD8AAD00EA7485 /* Launch Screen.storyboard */,
 			);
 			path = "Reel Talk";
 			sourceTree = "<group>";
@@ -107,9 +120,10 @@
 		952E458C2BDD847300EA7485 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				952E458F2BDD848D00EA7485 /* Genre */,
-				952E458E2BDD848100EA7485 /* SingUp */,
 				952E458D2BDD847C00EA7485 /* Welcome */,
+				952E458E2BDD848100EA7485 /* SingUp */,
+				952E458F2BDD848D00EA7485 /* Genres */,
+				952E459C2BDE7B3100EA7485 /* Top5 */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -129,14 +143,14 @@
 			path = SingUp;
 			sourceTree = "<group>";
 		};
-		952E458F2BDD848D00EA7485 /* Genre */ = {
+		952E458F2BDD848D00EA7485 /* Genres */ = {
 			isa = PBXGroup;
 			children = (
 				952E45932BDD84BA00EA7485 /* ViewModel */,
 				952E45922BDD84B500EA7485 /* View */,
 				952E45912BDD84AF00EA7485 /* Model */,
 			);
-			path = Genre;
+			path = Genres;
 			sourceTree = "<group>";
 		};
 		952E45902BDD849C00EA7485 /* Views */ = {
@@ -163,6 +177,42 @@
 		952E45932BDD84BA00EA7485 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		952E459C2BDE7B3100EA7485 /* Top5 */ = {
+			isa = PBXGroup;
+			children = (
+				952E45A82BDE93A200EA7485 /* ViewModel */,
+				952E45A32BDE8F7700EA7485 /* Model */,
+				952E45A12BDE8F4C00EA7485 /* View */,
+			);
+			path = Top5;
+			sourceTree = "<group>";
+		};
+		952E45A12BDE8F4C00EA7485 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				952E459D2BDE7B6A00EA7485 /* MovieTvCell.swift */,
+				952E45A62BDE90CE00EA7485 /* MoviesTVShowGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		952E45A32BDE8F7700EA7485 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				952E45A42BDE8F9100EA7485 /* MovieTVShow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		952E45A82BDE93A200EA7485 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */,
+				952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952E459B2BDD8AAD00EA7485 /* Launch Screen.storyboard in Resources */,
 				952E45832BDD842600EA7485 /* Preview Assets.xcassets in Resources */,
 				952E45802BDD842600EA7485 /* Assets.xcassets in Resources */,
 			);
@@ -238,11 +289,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				952E45952BDD84D700EA7485 /* ThemeFont.swift in Sources */,
+				952E45A72BDE90CE00EA7485 /* MoviesTVShowGridView.swift in Sources */,
+				952E45AC2BDE951000EA7485 /* TVShowViewModel.swift in Sources */,
+				952E45AA2BDE93BE00EA7485 /* MoviesViewModel.swift in Sources */,
+				952E459E2BDE7B6A00EA7485 /* MovieTvCell.swift in Sources */,
 				952E45992BDD877400EA7485 /* Color+Extension.swift in Sources */,
 				952E457C2BDD842400EA7485 /* ContentView.swift in Sources */,
 				952E457E2BDD842400EA7485 /* Item.swift in Sources */,
 				952E457A2BDD842400EA7485 /* Reel_TalkApp.swift in Sources */,
 				952E45972BDD84E000EA7485 /* ThemeColor.swift in Sources */,
+				952E45A52BDE8F9200EA7485 /* MovieTVShow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +438,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +468,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

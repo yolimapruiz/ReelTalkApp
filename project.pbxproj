@@ -19,7 +19,6 @@
 		952E459E2BDE7B6A00EA7485 /* MovieTvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E459D2BDE7B6A00EA7485 /* MovieTvCell.swift */; };
 		952E45A72BDE90CE00EA7485 /* MoviesTVShowGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45A62BDE90CE00EA7485 /* MoviesTVShowGridView.swift */; };
 		952E45AA2BDE93BE00EA7485 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */; };
-		952E45AC2BDE951000EA7485 /* TVShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */; };
 		952E45AE2BDE9FD600EA7485 /* WelcomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45AD2BDE9FD600EA7485 /* WelcomeViewCell.swift */; };
 		952E45B02BDEA18900EA7485 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45AF2BDEA18900EA7485 /* OnboardingView.swift */; };
 		952E45B32BDEA26700EA7485 /* WelcomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45B22BDEA26700EA7485 /* WelcomeModel.swift */; };
@@ -41,6 +40,9 @@
 		952E45E92BE0649A00EA7485 /* MovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45E82BE0649A00EA7485 /* MovieDataSource.swift */; };
 		952E45EC2BE0805700EA7485 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 952E45EB2BE0805700EA7485 /* Kingfisher */; };
 		952E45EF2BE0976D00EA7485 /* SelectedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45EE2BE0976D00EA7485 /* SelectedItems.swift */; };
+		952E45F12BE127C900EA7485 /* TVViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45F02BE127C800EA7485 /* TVViewModel.swift */; };
+		952E45F52BE12EAA00EA7485 /* SelectedItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45F42BE12EA900EA7485 /* SelectedItemsViewModel.swift */; };
+		952E45F72BE15AF000EA7485 /* Movie+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E45F62BE15AEF00EA7485 /* Movie+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +59,6 @@
 		952E459D2BDE7B6A00EA7485 /* MovieTvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTvCell.swift; sourceTree = "<group>"; };
 		952E45A62BDE90CE00EA7485 /* MoviesTVShowGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTVShowGridView.swift; sourceTree = "<group>"; };
 		952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
-		952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowViewModel.swift; sourceTree = "<group>"; };
 		952E45AD2BDE9FD600EA7485 /* WelcomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewCell.swift; sourceTree = "<group>"; };
 		952E45AF2BDEA18900EA7485 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		952E45B22BDEA26700EA7485 /* WelcomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModel.swift; sourceTree = "<group>"; };
@@ -78,6 +79,9 @@
 		952E45E62BE0647400EA7485 /* MovieDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSourceType.swift; sourceTree = "<group>"; };
 		952E45E82BE0649A00EA7485 /* MovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSource.swift; sourceTree = "<group>"; };
 		952E45EE2BE0976D00EA7485 /* SelectedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItems.swift; sourceTree = "<group>"; };
+		952E45F02BE127C800EA7485 /* TVViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVViewModel.swift; sourceTree = "<group>"; };
+		952E45F42BE12EA900EA7485 /* SelectedItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemsViewModel.swift; sourceTree = "<group>"; };
+		952E45F62BE15AEF00EA7485 /* Movie+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				952E45982BDD877300EA7485 /* Color+Extension.swift */,
+				952E45F62BE15AEF00EA7485 /* Movie+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -257,7 +262,6 @@
 			isa = PBXGroup;
 			children = (
 				952E45A92BDE93BE00EA7485 /* MoviesViewModel.swift */,
-				952E45AB2BDE951000EA7485 /* TVShowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -300,7 +304,6 @@
 			children = (
 				952E45CE2BDFF5F200EA7485 /* ViewModel */,
 				952E45CD2BDFF5E800EA7485 /* View */,
-				952E45CC2BDFF5DB00EA7485 /* Model */,
 			);
 			path = Top5Series;
 			sourceTree = "<group>";
@@ -311,13 +314,6 @@
 				952E45CA2BDFF30500EA7485 /* CustomBackButton.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		952E45CC2BDFF5DB00EA7485 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		952E45CD2BDFF5E800EA7485 /* View */ = {
@@ -331,6 +327,7 @@
 		952E45CE2BDFF5F200EA7485 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				952E45F02BE127C800EA7485 /* TVViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -431,9 +428,26 @@
 		952E45ED2BE0974900EA7485 /* SelectedItems */ = {
 			isa = PBXGroup;
 			children = (
+				952E45F32BE12E8300EA7485 /* ViewModel */,
+				952E45F22BE12E7A00EA7485 /* View */,
 				952E45EE2BE0976D00EA7485 /* SelectedItems.swift */,
 			);
 			path = SelectedItems;
+			sourceTree = "<group>";
+		};
+		952E45F22BE12E7A00EA7485 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		952E45F32BE12E8300EA7485 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				952E45F42BE12EA900EA7485 /* SelectedItemsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +527,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952E45F12BE127C900EA7485 /* TVViewModel.swift in Sources */,
 				952E45C12BDEABE500EA7485 /* GenreView.swift in Sources */,
 				952E45AE2BDE9FD600EA7485 /* WelcomeViewCell.swift in Sources */,
 				952E45DC2BE05A9000EA7485 /* HTTPClient.swift in Sources */,
@@ -522,7 +537,6 @@
 				952E45BB2BDEA9C100EA7485 /* ProgressViewModel.swift in Sources */,
 				952E45D12BDFF81000EA7485 /* GuidelineAgreementView.swift in Sources */,
 				952E45A72BDE90CE00EA7485 /* MoviesTVShowGridView.swift in Sources */,
-				952E45AC2BDE951000EA7485 /* TVShowViewModel.swift in Sources */,
 				952E45DF2BE05B9400EA7485 /* HTTPClientError.swift in Sources */,
 				952E45B32BDEA26700EA7485 /* WelcomeModel.swift in Sources */,
 				952E45BF2BDEAAFA00EA7485 /* GenreGrid.swift in Sources */,
@@ -537,11 +551,13 @@
 				952E457C2BDD842400EA7485 /* ContentView.swift in Sources */,
 				952E457E2BDD842400EA7485 /* Item.swift in Sources */,
 				952E45E72BE0647500EA7485 /* MovieDataSourceType.swift in Sources */,
+				952E45F72BE15AF000EA7485 /* Movie+Extension.swift in Sources */,
 				952E457A2BDD842400EA7485 /* Reel_TalkApp.swift in Sources */,
 				952E45C82BDFE23E00EA7485 /* TVSelection.swift in Sources */,
 				952E45E92BE0649A00EA7485 /* MovieDataSource.swift in Sources */,
 				952E45DA2BE05A4300EA7485 /* HTTPClientType.swift in Sources */,
 				952E45972BDD84E000EA7485 /* ThemeColor.swift in Sources */,
+				952E45F52BE12EAA00EA7485 /* SelectedItemsViewModel.swift in Sources */,
 				952E45B02BDEA18900EA7485 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

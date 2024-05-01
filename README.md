@@ -2,7 +2,7 @@
 
 A mobile application dedicated to Movie and TV show enthusiasts who want to be part of a fun community.
 
-####Features
+#### Features
 - Launch Screen
 - Onboarding Flow
 - Genre Selection
@@ -10,7 +10,7 @@ A mobile application dedicated to Movie and TV show enthusiasts who want to be p
 - TV Show Selection View.
 - Guideline Agreement
 
-####Architecture Pattern
+#### Architecture Pattern
 The selected architecture is MVVM. It aligns with SwiftUI's principles of declarative, reactive, and composable UI development.
    MVVM is effective for managing asynchronous operations, such as fetching data from APIs or performing background tasks. ViewModel components can handle data retrieval and transformation asynchronously, ensuring smooth interaction and responsiveness in the user interface.
 
@@ -18,7 +18,7 @@ The selected architecture is MVVM. It aligns with SwiftUI's principles of declar
 
    It also supports several aspects of the SOLID principles, particularly in terms of separation of concerns, extensibility, modularity, and dependency management. By leveraging MVVM, you can create SwiftUI applications that are easier to maintain, test, and evolve over time, aligning with the fundamental principles of good software design encapsulated in SOLID.
    
-####Style
+#### Style
 About the Style guide:
 Yoy have access to all the custome fonts stablished on the figma design on a swift file named ThemeFont. Anytime you want to customize a font use: .font(ThemeFont.{desired font}).
 
